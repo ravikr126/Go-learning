@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"m/myutils"
+)
 
 func main() {
 	fmt.Println("Hello world")
+	myutils.MyProgram("Hii ravi")
 }
